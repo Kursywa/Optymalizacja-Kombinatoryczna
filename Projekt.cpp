@@ -85,17 +85,7 @@ void dodaj_obiekt()
                     fgets(tymczasowy_tytul, 70, stdin);
                     flaga = false;
                     break;
-                case 3:
-                    strcpy(head->kategoria, "ksiazka");
-                    printf("Podaj tytul ksiazki: ");
-                    fgets(tymczasowy_tytul, 70, stdin);
-                    flaga = false;
-                    break;
-                default:
-                    printf("\nPodano nieistniejaca kategorie!\nSprobuj wybrac kategorie jeszcze raz.\n\n");
-                    break;
-            }
-        }
+           asd
         fflush(stdin);
         RemoveEnter(tymczasowy_tytul,20);
         strcpy(head->nazwa_obiektu, tymczasowy_tytul);
