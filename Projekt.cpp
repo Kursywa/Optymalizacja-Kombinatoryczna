@@ -1,8 +1,4 @@
-#include<stdio.h>
-#include<string.h>
-#include<stdlib.h>
-#include<cstring>
-#include<ctype.h>
+
 struct Data
 {
     int rok;
